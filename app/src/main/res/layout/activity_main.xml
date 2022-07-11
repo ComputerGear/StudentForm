@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/template2"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/header"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_2"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="First Name"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Middle Name"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Last Name"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="20dp"
+        android:text="Date of Birth"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="20dp"
+        android:text="Parent/Guardian Name"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:text="Contact Number"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="20dp"
+        android:text="Address"
+        android:textSize="25dp"
+
+
+        />
+
+
+</RelativeLayout>
